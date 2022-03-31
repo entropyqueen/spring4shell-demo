@@ -43,12 +43,11 @@ Add final name so that package will be named `demo.war`, in `pom.xml` under the 
 
 run maven
 ```
+$ cd demo
 $ mvn clean package
 ```
 
 which creates `demo/target/demo.war`
-
-Or, ya know... just use what I've already setup in this repo :)
 
 ### Check for Spring in package
 
