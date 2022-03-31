@@ -10,6 +10,21 @@ $ yay -S jdk11-openjdk
 $ sudo archlinux-java set java-11-openjdk
 ```
 
+### Quick steps:
+
+To quickly setup the app, use the following commands (i.e: TL;DR):
+```
+$ cd demo
+$ mvn package
+$ cd ..
+$ docker build -t eq/spring4shell ./
+$ docker container run -it --publish 8080:8080 eq/spring4shell
+```
+
+All is ready... just use the `poc.py` now.
+
+More details: 
+
 ### Build vuln application
 
 These are the steps I followed to build the vuln app in this repo:
